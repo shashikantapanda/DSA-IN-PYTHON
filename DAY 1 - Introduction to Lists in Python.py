@@ -113,6 +113,29 @@ while i < len(numbers):
 squared = [x**2 for x in numbers]
 print("Squared Numbers:", squared)
 
+# -----------------------------------------------------------------------------
+# Why Use List Comprehension?
+# Conciseness:
+# Instead of using a loop to build the list, you can do it in a single line.
+
+# Efficiency:
+# List comprehensions are faster and more Pythonic compared to loops for simple
+# operations.
+
+# Readability:
+# It expresses the intention directly: "Create a list of squares of elements 
+# in numbers."
+
+
+# Equivalent code using a loop:
+
+
+squared = []
+for x in numbers:
+    squared.append(x**2)
+print("Squared Numbers:", squared)
+
+
 
 
 
